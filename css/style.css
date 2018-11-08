@@ -1,0 +1,26 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background: #2f2e2c;
+	text-align: center;
+}
+
+h1{
+	color: #ffffff;
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+h2{
+	color: #ffffff;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+img{
+	margin: 200px auto 20px;
+	padding: 20px;
+}
