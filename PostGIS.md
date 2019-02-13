@@ -27,19 +27,20 @@
 
 `GRANT ALL PRIVILEGES ON DATABASE myproject TO myprojectuser;`
 
+`\q`
+
 ------------------------------------------------------------------------------------------------------------
 
 **Устанавливаем в базу расширение postgis**
 
-`CREATE EXTENSION postgis;`
+`sudo -u postgres psql -c 'CREATE EXTENSION postgis;' myproject`
 
 ------------------------------------------------------------------------------------------------------------
 
 **Проверяем установку PostGIS**
 
-`SELECT PostGIS_Full_Version();`
+`psql -d myproject -U myprojectuser -c "SELECT PostGIS_Full_Version();"`
 
-`\q`
 
 ------------------------------------------------------------------------------------------------------------
 
